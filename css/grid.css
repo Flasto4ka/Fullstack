@@ -1,212 +1,211 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -24px;
-    margin-left: -24px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.column, [class^='new-column-'] {
-    position: relative;
-    width: 100%;
-    padding-right: 24px;
-    padding-left: 24px;
+.column,
+[class^="new-column-"] {
+  position: relative;
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 @media (min-width: 576px) {
-    .column-sm-1 {
-        flex: 0 0 8.3333333333%;
-        max-width: 8.3333333333%;
-   }
-    .column-sm-2 {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-   }
-    .column-sm-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-   }
-    .column-sm-4 {
-        flex: 0 0 33.3333333333%;
-        max-width: 33.3333333333%;
-   }
-    .column-sm-5 {
-        flex: 0 0 41.6666666667%;
-        max-width: 41.6666666667%;
-   }
-    .column-sm-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-   }
-    .column-sm-7 {
-        flex: 0 0 58.3333333333%;
-        max-width: 58.3333333333%;
-   }
-    .column-sm-8 {
-        flex: 0 0 66.6666666667%;
-        max-width: 66.6666666667%;
-   }
-    .column-sm-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-   }
-    .column-sm-10 {
-        flex: 0 0 83.3333333333%;
-        max-width: 83.3333333333%;
-   }
-    .column-sm-11 {
-        flex: 0 0 91.6666666667%;
-        max-width: 91.6666666667%;
-   }
-    .column-sm-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-   }
+  .column-sm-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .column-sm-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .column-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .column-sm-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .column-sm-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .column-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column-sm-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .column-sm-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .column-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .column-sm-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .column-sm-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .column-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 @media (min-width: 768px) {
-    .column-md-1 {
-        flex: 0 0 8.3333333333%;
-        max-width: 8.3333333333%;
-   }
-    .column-md-2 {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-   }
-    .column-md-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-   }
-    .column-md-4 {
-        flex: 0 0 33.3333333333%;
-        max-width: 33.3333333333%;
-   }
-    .column-md-5 {
-        flex: 0 0 41.6666666667%;
-        max-width: 41.6666666667%;
-   }
-    .column-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-   }
-    .column-md-7 {
-        flex: 0 0 58.3333333333%;
-        max-width: 58.3333333333%;
-   }
-    .column-md-8 {
-        flex: 0 0 66.6666666667%;
-        max-width: 66.6666666667%;
-   }
-    .column-md-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-   }
-    .column-md-10 {
-        flex: 0 0 83.3333333333%;
-        max-width: 83.3333333333%;
-   }
-    .column-md-11 {
-        flex: 0 0 91.6666666667%;
-        max-width: 91.6666666667%;
-   }
-    .column-md-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-   }
+  .column-md-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .column-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .column-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .column-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .column-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .column-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .column-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .column-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .column-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .column-md-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .column-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 @media (min-width: 992px) {
-    .column-lg-1 {
-        flex: 0 0 8.3333333333%;
-        max-width: 8.3333333333%;
-   }
-    .column-lg-2 {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-   }
-    .column-lg-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-   }
-    .column-lg-4 {
-        flex: 0 0 33.3333333333%;
-        max-width: 33.3333333333%;
-   }
-    .column-lg-5 {
-        flex: 0 0 41.6666666667%;
-        max-width: 41.6666666667%;
-   }
-    .column-lg-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-   }
-    .column-lg-7 {
-        flex: 0 0 58.3333333333%;
-        max-width: 58.3333333333%;
-   }
-    .column-lg-8 {
-        flex: 0 0 66.6666666667%;
-        max-width: 66.6666666667%;
-   }
-    .column-lg-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-   }
-    .column-lg-10 {
-        flex: 0 0 83.3333333333%;
-        max-width: 83.3333333333%;
-   }
-    .column-lg-11 {
-        flex: 0 0 91.6666666667%;
-        max-width: 91.6666666667%;
-   }
-    .column-lg-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-   }
+  .column-lg-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .column-lg-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .column-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .column-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .column-lg-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .column-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column-lg-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .column-lg-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .column-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .column-lg-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .column-lg-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .column-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 @media (min-width: 1200px) {
-    .column-xl-1 {
-        flex: 0 0 8.3333333333%;
-        max-width: 8.3333333333%;
-   }
-    .column-xl-2 {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-   }
-    .column-xl-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-   }
-    .column-xl-4 {
-        flex: 0 0 33.3333333333%;
-        max-width: 33.3333333333%;
-   }
-    .column-xl-5 {
-        flex: 0 0 41.6666666667%;
-        max-width: 41.6666666667%;
-   }
-    .column-xl-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-   }
-    .column-xl-7 {
-        flex: 0 0 58.3333333333%;
-        max-width: 58.3333333333%;
-   }
-    .column-xl-8 {
-        flex: 0 0 66.6666666667%;
-        max-width: 66.6666666667%;
-   }
-    .column-xl-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-   }
-    .column-xl-10 {
-        flex: 0 0 83.3333333333%;
-        max-width: 83.3333333333%;
-   }
-    .column-xl-11 {
-        flex: 0 0 91.6666666667%;
-        max-width: 91.6666666667%;
-   }
-    .column-xl-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-   }
+  .column-xl-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .column-xl-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .column-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .column-xl-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .column-xl-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .column-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column-xl-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .column-xl-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .column-xl-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .column-xl-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .column-xl-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .column-xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
