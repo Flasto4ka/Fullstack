@@ -21,27 +21,16 @@ p {
 }
 
 
-/* Page */
-.page {
-    width: 1920px; 
-    height: 100vh;
-    
-    background: #EEF1F2; 
-}
-
 .container {
-    width: 100%;
-    max-width: 1920px;
+    width: 1172px;
     margin: 0 auto;
 }
 
 /* Header */
 .header {
-    padding: 22px;
+    padding-top:22px ;
+    padding-bottom: 22px;
 
-    width: 1920px;
-    height: 80px;
-    
     background: #FFFFFF;
 }
 
@@ -52,12 +41,15 @@ p {
 }
 
 .header-logo { 
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .header-text {
     display: flex;  
     gap: 70px;
+    align-items: center;
+    height: 100%;
 }
 
 .header-text-link {
@@ -67,8 +59,11 @@ p {
 
 
 /* Button */
-.button {
-    margin: 0 auto;
+.button-group {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 100%;
 }
 
 .button1 {
