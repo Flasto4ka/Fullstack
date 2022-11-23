@@ -45,6 +45,10 @@ p {
 .header__logo { 
     display: flex;
     align-items: center;
+
+    position: relative;
+    top: 8px;
+   
 }
 
 .header__links-group {
@@ -54,8 +58,18 @@ p {
     height: 100%;
 }
 
-.header_list {
+.header__links-list {
     display: flex; 
+    gap: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .header__link {
