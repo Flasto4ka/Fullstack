@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Fullstack-разработка на Java Script</title>
-</head>
+  </head>
 
-<body>
-    <div class="page">
-        <header class="header">
-            <div class="container">
-                <div class="header-inner">
-                
-                    <div class="header-logo">
-                        <img src="./img/logo.svg" alt="#">
-                    </div>
-
-                    <div class="header-text">
-                        <a class="header-text-link" href="#">Курсы</a>
-                        <a class="header-text-link" href="#">Карьера</a>
-                        <a class="header-text-link" href="#">Сотрудничество ^ </a>
-                        <a class="header-text-link" href="#">Блог</a>
-                        <a class="header-text-link" href="#">О HiBrain</a>
-                    </div>
-
-                    <form class="button">
-                        <button class="button1" type="button">Регистрация</button>
-                        <button class="button2" type="button">Вход</button>
-                    </form>
-
-                </div>
+  <body>
+    <!-- Block header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          
+          <div class="column-lg-2">
+            <div class="header__logo">
+              <img src="./img/logo.svg" alt="" />
             </div>
-        </header>
-    </div>
+          </div>
+
+          <div class="column-lg-7">
+            <nav class="header__links-group">
+              <ul class="header__links-list">
+                <li><a class="header__link" href="#">Курсы</a></li>
+                <li><a class="header__link" href="#">Карьера</a></li>
+                <li><span class="header__link-with-image">
+                  <a class="header__link" href="#">Сотрудничество</a>
+                  <img class="header__link-image" src="./img/Vector.svg" alt=""/>
+                </span></li>
+                <li><a class="header__link" href="#">Блог</a></li>
+                <li><a class="header__link" href="#">О HiBrain</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="column-lg-3">
+            <div class="header__buttons-group">
+              <button class="header__button-register" type="button">Регистрация</button>
+              <button class="header__button-login" type="button">Вход</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     
-</body>
+
+    <!-- Block banner -->
+    <main class="banner"></main>
+  </body>
 </html>
