@@ -2,10 +2,10 @@ body {
     margin: 0;
 
     font-family: Rubik, sans-serif;
+    font-family: 'Roboto Slab', serif;
+
     font-size: 16px;
     line-height: 24px;
-
-    box-shadow: 0px 0px 20px 0px #9f9d9d;
 }
 
 *,
@@ -39,7 +39,6 @@ p {
 .header-inner {
     display: flex;
     justify-content: space-between;
-
 }
 
 .header__logo { 
@@ -48,10 +47,11 @@ p {
 
     position: relative;
     top: 8px;
-   
 }
 
 .header__links-group {
+    font-family: Rubik, sans-serif;
+
     display: flex;  
     gap: 70px;
     justify-content: center;
@@ -63,7 +63,6 @@ p {
 .header__links-list {
     display: flex; 
     gap: 70px;
-   
 }
 
 li {
@@ -98,7 +97,6 @@ ul {
     align-items: center;
     height: 100%;
     justify-content: flex-end;
-
 }
 
 .header__button-register {
@@ -128,4 +126,116 @@ ul {
 
     cursor: pointer;
 }
+
+
+
+/* Block banner */
+.banner {
+    height: 743px;
+  
+    display: flex;
+
+    font-family: Roboto Slab, sans-serif;
+
+    margin: 0 auto;
+
+    background-color: #EEF1F2;
+
+    box-shadow: inset 0px 0px 20px 0px #9f9d9d;
+}
+
+.main-container {
+    display: flex;
+    
+    padding-left: 260px;
+}
+
+.main__title {
+    font-family: Roboto Slab, sans-serif;
+
+    margin-top: 100px;
+    margin-bottom: 60px;
+    
+    line-height: 55px;
+    font-size: 42px;
+}
+
+.main__text {
+    font-family: Rubic, sans-serif;
+
+    margin-top: 60px;
+    line-height: 24px;
+
+    margin-bottom: 60px;
+
+    width: 565px;
+    height: 72px;
+}
+
+.main__list {
+    font-family: Rubic, sans-serif;
+
+    margin-bottom: 60px;
+
+    display: flex;
+    gap: 120px;
+}
+
+.main__button {
+    font-family: Roboto Slab, sans-serif;
+    padding: 12px 60px 12px 61px;
+
+    background-color: #1E3DAF;
+    color: #FFFFFF;
+    font-size: 16px;
+
+    border: 2px solid #1E3DAF;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+
+.main__figures {
+    margin-left: 60px;
+}
+
+.main__figures-element {
+    font-size: 46px;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    bottom: 8px;
+    right: 2px;
+
+}
+
+.main__figures-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+    
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.main__figures-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 92.4px;
+    height: 92.4px;
+    
+    background-color: #1E3DAF;
+
+    position: relative;
+    
+}
+
 
