@@ -131,17 +131,12 @@ ul {
 
 /* Block banner */
 .banner {
-    padding: 100px 375px;
+    padding: 0 375px 100px 375px;
     display: flex;
     font-family: Roboto Slab, sans-serif;
     margin: 0 auto;
     background-color: #EEF1F2;
     box-shadow: inset 0px 0px 20px 0px #9f9d9d;
-}
-
-.main-container {
-    display: flex;
-    padding-left: 260px;
 }
 
 .main__title {
