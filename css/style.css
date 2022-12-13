@@ -130,6 +130,7 @@ ul {
 
 
 /* Block banner */
+
 .banner {
     padding: 0 375px 100px 375px;
     display: flex;
@@ -216,3 +217,37 @@ ul {
 }
 
 
+
+
+
+/* about program */
+.about program {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.about program__text {
+
+}
+
+.about program__images {
+    display: flex;
+    gap: 55px;
+}
+
+.about program__images-image {
+    width: 58px;
+    height: 85px;
+}
+
+.about curs {
+font-weight: bold;
+}
+
+.placat {
+    width: 464px;
+    height: 348px;
+}
