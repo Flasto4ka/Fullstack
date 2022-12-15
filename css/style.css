@@ -130,13 +130,14 @@ ul {
 
 
 /* Block banner */
+
 .banner {
     padding: 0 375px 100px 375px;
     display: flex;
     font-family: Roboto Slab, sans-serif;
     margin: 0 auto;
     background-color: #EEF1F2;
-    box-shadow: inset 0px 0px 20px 0px #9f9d9d;
+    box-shadow: inset 10px 10px 20px -10px #9f9d9d;
 }
 
 .main__title {
@@ -214,5 +215,72 @@ ul {
     background-color: #1E3DAF;
     position: relative;
 }
+
+
+
+
+
+/* About */
+.about {
+    padding: 0 375px 30px 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.main__about-title {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.main__about-text {
+    margin-bottom: 28px;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+}
+
+.main__about-box {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.main__about-block {
+    display: inline;
+    align-items: center; 
+    text-align: center;
+}
+
+.main__about-image {
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.main__about-name {
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #342B2B;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__about-picture {
+    margin-left: 40px;
+    margin-top: 193px;
+}
+
 
 
