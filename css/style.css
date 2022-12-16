@@ -140,7 +140,7 @@ ul {
     box-shadow: inset 10px 10px 20px -10px #9f9d9d;
 }
 
-.main__title {
+.banner__title {
     font-family: Roboto Slab, sans-serif;
     margin-top: 100px;
     margin-bottom: 60px;
@@ -149,7 +149,7 @@ ul {
     font-weight: bold;
 }
 
-.main__text {
+.banner__text {
     font-family: Rubic, sans-serif;
     margin-top: 60px;
     line-height: 24px;
@@ -158,18 +158,18 @@ ul {
     height: 72px;
 }
 
-.main__list {
+.banner__list {
     font-family: Rubic, sans-serif;
     margin-bottom: 60px;
     display: flex;
     gap: 120px;
 }
 
-.main__list-word {
+.banner__list-word {
     font-weight: bold;
 }
 
-.main__button {
+.banner__button {
     font-family: Roboto Slab, sans-serif;
     padding: 12px 60px 12px 61px;
     background-color: #1E3DAF;
@@ -182,11 +182,11 @@ ul {
 }
 
 
-.main__figures {
+.banner__figures {
     margin-left: 60px;
 }
 
-.main__figures-element {
+.banner__figures-element {
     font-size: 46px;
     color: #FFFFFF;
     position: absolute;
@@ -195,7 +195,7 @@ ul {
     font-weight: bold;
 }
 
-.main__figures-circle {
+.banner__figures-circle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +206,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.main__figures-square {
+.banner__figures-square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ ul {
 
 
 
-/* About */
+/* Block about */
 .about {
     padding: 0 375px 30px 375px;
     display: flex;
@@ -229,7 +229,7 @@ ul {
   
 }
 
-.main__about-title {
+.about__title {
     font-family: Roboto Slab, sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -237,31 +237,66 @@ ul {
     margin-top: 100px;
 }
 
-.main__about-text {
+.about__text {
     margin-bottom: 28px;
     font-family: Rubik, sans-serif;
     font-size: 16px;
 }
 
-.main__about-box {
+.about__box {
     display: flex;
     align-items: start;
     gap: 40px;
     margin-bottom: 150px;
 }
 
-.main__about-block {
+.about__block {
     display: inline;
     align-items: center; 
     text-align: center;
 }
 
-.main__about-image {
+/* about__image */
+.about__image {
     margin-bottom: 10px;
     flex-shrink: 0;
 }
 
-.main__about-name {
+.about__image-React {
+    width: 58px;
+    height: 52px;
+}
+
+.about__image-Redux {
+    width: 58px;
+    height: 55.23px;
+}
+
+.about__image-JS {
+    width: 52.63px;
+    height: 58px;
+}
+
+.about__image-Git {
+    width: 58px;
+    height: 58px;
+}
+
+.about__image-Mongo {
+    width: 25.92px;
+    height: 58px;
+}
+
+.about__image-MySQL {
+    width: 58px;
+    height: 56.82px;
+}
+
+
+
+
+
+.about__name {
     font-family: Rubik, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -275,12 +310,99 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: #EEF1F2;
 }
 
-.main__about-picture {
+.about__picture {
+    width: 464px;
+    height: 348px;
     margin-left: 40px;
     margin-top: 193px;
 }
 
 
 
+
+/* Block aside */
+.aside {
+    padding: 0 375px 30px 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+.aside__title {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.aside__block {
+    display: flex;
+    gap: 17px;
+}
+
+.aside__group {
+   margin-top: 5px;
+}
+
+.aside__sign {
+    width: 14px;
+    height: 13.76px;
+    background: #EEF1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside__triangle {
+    width: 3.29px;
+    height: 3.24px;
+	border-top: 3.24px solid #EEF1F2;
+	border-right: 3.29px solid transparent;
+}
+
+.list {
+    font-family: Rubic, sans-serif;
+    size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.aside__square {
+    width: 565px;
+    height: 398px;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 60px;
+    box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
+    border-radius: 4px;
+}
+
+.aside__figure {
+    width: 565px;
+    height: 18px;
+    background-color: #EEF1F2;
+    display: flex;  
+}
+
+.aside__circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-left: 40px;
+    margin-right: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex; 
+}
+
+.aside__circle + .aside__circle {
+    margin-left: 4px;
+}
