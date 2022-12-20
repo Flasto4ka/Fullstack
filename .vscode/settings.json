@@ -1,3 +1,5 @@
 {
-  "livePreview.defaultPreviewPath": "c:\\Users\\flast\\Fullstack\\index.html"
+  "livePreview.defaultPreviewPath": "c:\\Users\\flast\\Fullstack\\index.html",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
