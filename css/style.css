@@ -386,3 +386,60 @@ ul {
 .aside__circle + .aside__circle {
   margin-left: 4px;
 }
+
+
+
+
+/* Block information */
+
+.information {
+  margin-bottom: 154px;
+}
+
+.information__title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.information__text {
+  font-family: Rubic, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.information__block {
+  display: flex;
+  gap: 8px;
+}
+
+.information__image {
+width: 162px;
+height: 200px;
+}
+
+.information__name {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.information__square {
+  width: 101px;
+  height: 4px;
+  background-color: #1E3DAF;
+  margin-bottom: 12px;
+}
+
+.information__discription {
+  font-family: Rubic, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 58px;
+}
+
