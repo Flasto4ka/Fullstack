@@ -387,9 +387,6 @@ ul {
   margin-left: 4px;
 }
 
-
-
-
 /* Block information */
 
 .information {
@@ -417,8 +414,8 @@ ul {
 }
 
 .information__image {
-width: 162px;
-height: 200px;
+  width: 162px;
+  height: 200px;
 }
 
 .information__name {
@@ -432,7 +429,7 @@ height: 200px;
 .information__square {
   width: 101px;
   height: 4px;
-  background-color: #1E3DAF;
+  background-color: #1e3daf;
   margin-bottom: 12px;
 }
 
@@ -442,4 +439,3 @@ height: 200px;
   line-height: 20px;
   padding-right: 58px;
 }
-
