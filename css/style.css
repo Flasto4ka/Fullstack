@@ -439,3 +439,35 @@ ul {
   line-height: 20px;
   padding-right: 58px;
 }
+
+/* Block part */
+
+.part__line {
+  width: 1169px;
+  height: 1px;
+
+  opacity: 0.2;
+  border: 1px solid #342b2b;
+}
+
+.part__title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.part__text {
+  font-family: Rubic, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.part__block {
+  display: flex;
+  gap: 41px;
+  margin-bottom: 150px;
+}
