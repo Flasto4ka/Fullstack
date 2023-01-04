@@ -2,7 +2,6 @@ body {
   margin: 0;
 
   font-family: Rubik, sans-serif;
-  
 
   font-size: 16px;
   line-height: 24px;
@@ -442,7 +441,7 @@ ul {
 
 /* Block part */
 
-.part__line {
+.career__line {
   width: 100%;
   height: 1px;
 
@@ -450,7 +449,7 @@ ul {
   border: 1px solid #342b2b;
 }
 
-.part__title {
+.career__title {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
@@ -458,14 +457,14 @@ ul {
   margin-bottom: 60px;
 }
 
-.part__text {
+.career__text {
   font-family: Rubic, sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
 }
 
-.part__block {
+.career__logo-list {
   display: flex;
   gap: 41px;
   margin-bottom: 150px;
