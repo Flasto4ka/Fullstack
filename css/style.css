@@ -5,6 +5,8 @@ body {
 
   font-size: 16px;
   line-height: 24px;
+
+  overflow-x: hidden;
 }
 
 *,
@@ -132,7 +134,7 @@ ul {
 /* Block banner */
 
 .banner {
-  padding: 0 375px 100px 375px;
+  padding: 0 210px 100px 175px;
   display: flex;
   font-family: Roboto Slab, sans-serif;
   margin: 0 auto;
@@ -162,7 +164,7 @@ ul {
   font-family: Rubic, sans-serif;
   margin-bottom: 60px;
   display: flex;
-  gap: 120px;
+  gap: 122px;
 }
 
 .banner__list-word {
@@ -217,7 +219,7 @@ ul {
 
 /* Block about */
 .about {
-  padding: 0 375px 30px 375px;
+  padding: 0 215px 30px 175px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +242,7 @@ ul {
 .about__box {
   display: flex;
   align-items: start;
-  gap: 40px;
+  gap: 41px;
   margin-bottom: 150px;
 }
 
@@ -305,7 +307,6 @@ ul {
 
 /* Block aside */
 .aside {
-  padding: 0 375px 30px 375px;
   display: flex;
   align-items: center;
   justify-content: center;
