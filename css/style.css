@@ -479,7 +479,7 @@ ul {
 }
 
 .program__text {
-  position: absolute;
+  position: relative;
 }
 
 .program__title {
@@ -493,7 +493,6 @@ ul {
 
 .program__square-front {
   width: 867px;
-  height: 188px;
   background-color: #ffffff;
   margin-bottom: 12px;
   padding: 24px 24px;
