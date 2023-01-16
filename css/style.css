@@ -5,6 +5,8 @@ body {
 
   font-size: 16px;
   line-height: 24px;
+
+  overflow-x: hidden;
 }
 
 *,
@@ -132,7 +134,7 @@ ul {
 /* Block banner */
 
 .banner {
-  padding: 0 375px 100px 375px;
+  padding: 0 210px 100px 175px;
   display: flex;
   font-family: Roboto Slab, sans-serif;
   margin: 0 auto;
@@ -162,7 +164,7 @@ ul {
   font-family: Rubic, sans-serif;
   margin-bottom: 60px;
   display: flex;
-  gap: 120px;
+  gap: 122px;
 }
 
 .banner__list-word {
@@ -217,7 +219,7 @@ ul {
 
 /* Block about */
 .about {
-  padding: 0 375px 30px 375px;
+  padding: 0 215px 30px 175px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +242,7 @@ ul {
 .about__box {
   display: flex;
   align-items: start;
-  gap: 40px;
+  gap: 41px;
   margin-bottom: 150px;
 }
 
@@ -305,7 +307,6 @@ ul {
 
 /* Block aside */
 .aside {
-  padding: 0 375px 30px 375px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -450,6 +451,7 @@ ul {
 }
 
 .career__title {
+  font-family: Roboto Slab, sans-serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
@@ -468,4 +470,94 @@ ul {
   display: flex;
   gap: 41px;
   margin-bottom: 150px;
+}
+
+/* Block program */
+
+.program {
+  background-color: #eef1f2;
+}
+
+.program__text {
+  position: relative;
+}
+
+.program__title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.program__square-front {
+  width: 867px;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+  padding: 24px 24px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.program__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program__subtitle {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.program__subtitle-text {
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 147px;
+}
+
+.program__square-back {
+  display: flex;
+  justify-content: space-between;
+  width: 867px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+  padding: 24px 24px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.program__square-bases {
+  display: flex;
+  justify-content: space-between;
+  width: 867px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-bottom: 150px;
+  padding: 24px 24px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.program__figure {
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(30, 61, 175, 0.1);
+  border-radius: 4px;
+  padding: 11px 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.program__image {
+  width: 780px;
+  height: 585px;
+  margin-top: 163px;
+  margin-left: -120px;
 }
