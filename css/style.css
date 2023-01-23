@@ -561,3 +561,72 @@ ul {
   margin-top: 163px;
   margin-left: -120px;
 }
+
+/* Block course */
+
+.course {
+  background: linear-gradient(#eef1f2 30%, #1e3daf 30%, #1e3daf 70%);
+  height: 480px;
+}
+
+.course__square {
+  display: flex;
+  width: 1170px;
+  height: 296px;
+  background-color: #ffffff;
+  padding: 40px 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.course__title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.course__text {
+  font-family: Rubic, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.course__place-box {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 16px;
+}
+
+.course__adress-box {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 40px;
+}
+
+.course__button {
+  font-family: Roboto Slab, sans-serif;
+  padding: 12px 61px 12px 60px;
+  background-color: #1e3daf;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #1e3daf;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.course__line {
+  width: 216px;
+  height: 0;
+  margin: 110px 50px;
+  opacity: 0.2;
+  border: 1px solid #342b2b;
+  transform: rotate(-90deg);
+}
+
+.course__logo {
+  padding: 80px 220px;
+}
