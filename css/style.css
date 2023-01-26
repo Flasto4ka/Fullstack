@@ -663,8 +663,6 @@ ul {
 .footer__line {
   width: 32px;
   height: 0px;
-  left: 511px;
-  top: 4398px;
   margin: 15px 1px;
   opacity: 0.5;
   border: 1px solid #ffffff;
@@ -701,4 +699,22 @@ ul {
   color: #ffffff;
   opacity: 50%;
   text-decoration: underline;
+}
+
+.footer__text-mail {
+  font-family: Rubic, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.footer__text-telephone {
+  font-family: Rubic, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 50%;
+  text-decoration: none;
 }
